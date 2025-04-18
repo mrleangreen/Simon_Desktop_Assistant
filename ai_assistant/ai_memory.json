@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-11T04:39:30.580160",
+    "prompt": "complete this homework 1. Vehicle Service DB Project",
+    "actions": [
+      "1. Open Text Editor (e.g., Notepad++, Visual Studio Code)",
+      "2. Save new file as \"VehicleServiceDB.sql\" in designated folder",
+      "3. Type `CREATE DATABASE IF NOT EXISTS VehicleServiceDB;`",
+      "4. Switch to newly created database (`USE VehicleServiceDB;`)",
+      "5. Type `CREATE TABLE IF NOT EXISTS Vehicles (...)` and provide table structure",
+      "6. Repeat step 5 for Service, Technicians, and Appointments tables",
+      "7. Save the file",
+      "8. Open MySQL Workbench",
+      "9. Connect to local server instance",
+      "10. Import SQL file \"VehicleServiceDB.sql\"",
+      "11. Open PhpMyAdmin",
+      "12. Check if tables have been created and data can be inserted",
+      "13. Close all applications"
+    ]
+  }
+]

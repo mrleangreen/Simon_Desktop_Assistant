@@ -64,6 +64,6 @@ This app is **run locally only**. No keystrokes or data leave your machine unles
 
 ---
 
-## 📜 License
+##  License
 
-MIT License – free to use, modify, and distribute.
+ free to use, modify, and distribute.

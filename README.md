@@ -4,7 +4,7 @@ This is a Python-based autonomous AI assistant designed to **interpret human lan
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Natural language command execution**  
 - **Multi-step task planning and execution**  
@@ -17,7 +17,7 @@ This is a Python-based autonomous AI assistant designed to **interpret human lan
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 1. Clone the repo:
  
@@ -34,11 +34,11 @@ pytesseract==0.3.10
 psutil==5.9.8
 
 
-## 🧱 Project Structure
+##  Project Structure
 
 ai_assistant/ ├── main.py # Core entrypoint ├── actions.py # Defines mouse, keyboard, app behavior ├── ui.py # GUI confirm and tray icon ├── listeners.py # ESC and override listeners ├── ai_interface.py # AI model prompt integration ├── codegen_agent.py # Code and project generator ├── task_planner.py # Multi-step breakdown logic ├── window_control.py # App/window detection ├── memory.py # Remembers past tasks ├── utils.py # Logging, OCR, etc └── assets/ # Button images for screen detection
 
-## 🧠 Example Commands
+##  Example Commands
 
 You can type natural language instructions like:
 
@@ -50,13 +50,13 @@ Edit
 
 ---
 
-## 🔐 Privacy & Safety
+##  Privacy & Safety
 
 This app is **run locally only**. No keystrokes or data leave your machine unless you configure external AI APIs.
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 - Built with Python 3.12  
 - AI model via Mistral/Mixtral or local LM Studio  

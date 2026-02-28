@@ -1,4 +1,4 @@
-# state.py
+# state.pyi
 
 cancel_task = False
 manual_override = False
@@ -16,3 +16,4 @@ def set_manual_override(val):
 
 def get_manual_override():
     return manual_override
+

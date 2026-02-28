@@ -1,4 +1,4 @@
-from ai_assistant.ui import confirm_gui, create_tray_icon
+from ai_assistant.ui import confirm_gui, create_tray_iconi
 from ai_assistant.actions import run_action
 from ai_assistant.listeners import start_listeners
 from ai_assistant.ai_interface import ask_mistral
@@ -116,5 +116,6 @@ User instruction: {enriched_prompt}
 
 if __name__ == "__main__":
     main()
+
 
 

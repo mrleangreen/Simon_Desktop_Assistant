@@ -1,4 +1,4 @@
-# memory_query.pyi
+# memory_query.py
 from ai_assistant.memory import search_memory
 from ai_assistant.utils import log_action
 
@@ -21,4 +21,5 @@ def query_memory():
         for a in entry['actions']:
             print(f"   → {a}")
         print("\n" + "-"*50 + "\n")
+
 

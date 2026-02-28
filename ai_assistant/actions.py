@@ -7,7 +7,7 @@ import pygetwindow as gw
 from pyautogui._pyautogui_win import _moveTo as moveTo
 from ai_assistant.utils import log_action, check_resume, read_screen_text, ripple_cursor, stop_ripple
 from ai_assistant.state import cancel_task, manual_override
-from PIL import Image
+from PIL import Imagei
 
 def run_action(action):
     global cancel_task, manual_override
@@ -171,6 +171,7 @@ def run_action(action):
 
     elapsed = round(time.time() - start_time, 2)
     log_action(f"[⏱] Task completed in {elapsed} seconds")
+
 
 
 

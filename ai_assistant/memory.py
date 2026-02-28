@@ -1,5 +1,5 @@
 # memory.py
-import json
+import jsoni
 import os
 from datetime import datetime
 
@@ -27,3 +27,4 @@ def remember_task(prompt, actions):
 def search_memory(query):
     memory = load_memory()
     return [m for m in memory if query.lower() in m["prompt"].lower()]
+

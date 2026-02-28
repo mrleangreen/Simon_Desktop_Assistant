@@ -1,4 +1,4 @@
-# utils.pyi
+# utils.py
 import time
 import threading
 import pyautogui
@@ -80,4 +80,5 @@ def show_text_popup(text):
     text_box.insert("1.0", text)
     text_box.pack(expand=True, fill="both")
     popup.mainloop()
+
 

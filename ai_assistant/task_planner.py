@@ -1,4 +1,4 @@
-# task_planner.py
+# task_planner.pyi
 import json
 from ai_assistant.ai_interface import ask_mistral
 from ai_assistant.utils import log_action
@@ -41,4 +41,5 @@ Goal: {prompt}
                 log_action(f"[-] Skipped step: {step}")
 
     remember_task(prompt, steps)
+
     log_action("[✅] Multi-step task completed.")

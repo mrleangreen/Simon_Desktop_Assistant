@@ -7,3 +7,5 @@ def ask_mistral(prompt):
         json={"model": "mistral", "prompt": prompt, "stream": False}
     )
     return res.json()["response"]
+
+i

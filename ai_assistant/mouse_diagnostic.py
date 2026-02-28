@@ -1,5 +1,5 @@
 import pyautogui
-import time
+import timei
 
 print("Mouse test starting in 3 seconds...")
 time.sleep(3)
@@ -15,3 +15,4 @@ print("Clicking center...")
 pyautogui.click()
 
 print("Mouse test complete.")
+

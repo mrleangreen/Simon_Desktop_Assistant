@@ -1,4 +1,4 @@
-# listeners.py
+# listeners.pyi
 from pynput import keyboard, mouse
 import threading
 from ai_assistant.state import set_cancel_task, set_manual_override
@@ -32,4 +32,5 @@ def start_listeners():
     esc_thread.start()
     click_thread.start()
     return esc_thread, click_thread
+
 

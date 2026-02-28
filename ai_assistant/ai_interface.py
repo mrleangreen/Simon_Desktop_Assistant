@@ -8,4 +8,5 @@ def ask_mistral(prompt):
     )
     return res.json()["response"]
 
-i
+
+

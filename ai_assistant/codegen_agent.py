@@ -1,4 +1,4 @@
-import osi
+import os
 from ai_assistant.ai_interface import ask_mistral
 from ai_assistant.utils import log_action
 
@@ -50,4 +50,5 @@ def write_file(base, filename, lines):
     with open(full_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     log_action(f"[📁] Wrote: {filename}")
+
 

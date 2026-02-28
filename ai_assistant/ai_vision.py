@@ -1,5 +1,5 @@
 # ai_vision.py
-import cv2i
+import cv2
 import numpy as np
 import pyautogui
 from ai_assistant.utils import log_action
@@ -37,4 +37,5 @@ def click_on_image(template_path):
         log_action(f"[🖱️] Clicked at: {point}")
     else:
         log_action("[!] Could not click, image not found.")
+
 

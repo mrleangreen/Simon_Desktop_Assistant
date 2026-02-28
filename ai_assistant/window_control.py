@@ -1,4 +1,4 @@
-# window_control.pyi
+# window_control.py
 from pywinauto import Application
 from ai_assistant.utils import log_action
 
@@ -32,4 +32,5 @@ def close_window_by_title(title):
         log_action(f"[❌] Closed window: {title}")
     except Exception as e:
         log_action(f"[!] Could not close window '{title}': {e}")
+
 

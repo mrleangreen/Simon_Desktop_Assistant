@@ -1,4 +1,4 @@
-# system_context.py
+# system_context.py i
 import os
 import psutil
 from ai_assistant.utils import log_action
@@ -42,3 +42,4 @@ def format_context_for_prompt(context):
             lines.append(f"• {app}")
 
     return "\n".join(lines)
+

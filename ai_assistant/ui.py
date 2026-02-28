@@ -1,4 +1,4 @@
-# ui.pyi
+# ui.py
 import tkinter as tk
 import threading
 import sys
@@ -58,4 +58,5 @@ def create_tray_icon():
         pystray.MenuItem("Exit", quit_action)
     ))
     threading.Thread(target=icon.run, daemon=True).start()
+
 
